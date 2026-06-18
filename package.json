@@ -1,11 +1,19 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend todo app project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruisonline/Backend-Todo-App.git"
+  },
   "author": "Dash",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gruisonline/Backend-Todo-App/issues"
+  },
+  "homepage": "https://github.com/gruisonline/Backend-Todo-App#readme"
 }
