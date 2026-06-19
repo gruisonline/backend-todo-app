@@ -2,9 +2,10 @@
   "name": "todo-app",
   "version": "1.0.0",
   "description": "backend todo app project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/gruisonline/Backend-Todo-App/issues"
   },
-  "homepage": "https://github.com/gruisonline/Backend-Todo-App#readme"
+  "homepage": "https://github.com/gruisonline/Backend-Todo-App#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.4"
+  }
 }
