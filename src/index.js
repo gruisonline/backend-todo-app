@@ -13,6 +13,7 @@ connectDB()
     })
     app.on("error", (error) => {
       console.log(`Error accured: ${error}`)
+      process.exit(1);
     })
   })
   .catch((error) => {
